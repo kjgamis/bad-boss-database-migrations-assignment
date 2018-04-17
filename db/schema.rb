@@ -13,8 +13,8 @@
 ActiveRecord::Schema.define(version: 20180417184618) do
 
   create_table "locations", force: :cascade do |t|
-    t.string "city"
-    t.string "weather"
+    t.string "country"
+    t.string "capital"
   end
 
   create_table "parts", force: :cascade do |t|
